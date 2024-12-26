@@ -6,11 +6,11 @@
         {
 			"label": "Open Chrome",
 			"type": "shell",
-			"command": "start chrome https://github.com/ed-roh/fullstack-admin && start chrome https://youtu.be/0cPCMIuDk2I?si=mx20Db7jo4t2FTqN&t=1801 && start chrome https://gemini.google.com/app",
+			"command": "start chrome https://github.com/ed-roh/fullstack-admin && start chrome https://youtu.be/0cPCMIuDk2I?si=0UGxAZrkN5ll-z5O&t=2704 && start chrome https://gemini.google.com/app",
 			"problemMatcher": [],
 			"runOptions": {
 				"runOn": "folderOpen"
 			  },
 		  }
     ]
-}
+} 
