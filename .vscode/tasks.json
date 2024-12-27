@@ -11,6 +11,28 @@
 			"runOptions": {
 				"runOn": "folderOpen"
 			  },
-		  }
+		  },
+		  {
+			"label": "Project start",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+			  "run",
+			  "start"
+			],
+			"options": {
+			  "cwd": "${workspaceFolder}/client"
+			},
+			"group": {
+			  "kind": "build",
+
+			},
+			"runOptions": {
+			  "runOn": "folderOpen"
+			},
+			"problemMatcher": [],
+		//	"dependsOn": "Run on Startup docker",  // Run after the Docker task completes
+		//	"detail": "Run Prisma Studio after Docker Desktop starts"
+		  },
     ]
 } 
