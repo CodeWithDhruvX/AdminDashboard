@@ -6,7 +6,7 @@
         {
 			"label": "Open Chrome",
 			"type": "shell",
-			"command": "start chrome https://github.com/ed-roh/fullstack-admin; start chrome https://gemini.google.com/app",
+			"command": "start chrome https://github.com/ed-roh/fullstack-admin; start chrome https://gemini.google.com/app; start chrome https://cloud.mongodb.com/v2#/org/61e6e9ad261bbd064fb3232d/projects;",
 			"problemMatcher": [],
 			"runOptions": {
 				"runOn": "folderOpen"
