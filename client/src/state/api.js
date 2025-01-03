@@ -12,5 +12,7 @@ export const api = createApi({
     })
 })
 
+console.log('ur',process.env.REACT_APP_API_URL);
+
 export const 
 { useGetUserQuery } = api;
