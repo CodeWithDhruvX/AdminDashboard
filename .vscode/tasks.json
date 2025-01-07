@@ -34,7 +34,29 @@
 		//	"dependsOn": "Run on Startup docker",  // Run after the Docker task completes
 		//	"detail": "Run Prisma Studio after Docker Desktop starts"
 		  },
+		  {
+			"label": "Backend Project start",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+			  "run",
+			  "dev"
+			],
+			"options": {
+			  "cwd": "${workspaceFolder}/server"
+			},
+			"group": {
+			  "kind": "build",
+
+			},
+			"runOptions": {
+			  "runOn": "folderOpen"
+			},
+			"problemMatcher": [],
+		//	"dependsOn": "Run on Startup docker",  // Run after the Docker task completes
+		//	"detail": "Run Prisma Studio after Docker Desktop starts"
+		  },
     ]
 } 
 
-// https://youtu.be/0cPCMIuDk2I?si=XtsOMkXXkRkcpHLR&t=5440
+// https://youtu.be/0cPCMIuDk2I?si=sPyuvbpPcOtU9Jlv&t=10262
