@@ -19,7 +19,6 @@ import ProductStat from './models/ProductStat.js';
 
 
 
-
 // configuration
 dotenv.config();
 const app =express();

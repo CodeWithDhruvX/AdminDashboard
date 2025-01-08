@@ -19,7 +19,6 @@ const Navbar = ({
     const isOpen = Boolean(anchorEl);
     const handleClick = (event) => setAnchorEl(event.currentTarget);
     const handleClose = () => setAnchorEl(null);
-    console.log(user);
     
     return (
         <AppBar sx={{
